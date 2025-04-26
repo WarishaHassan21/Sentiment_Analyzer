@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #00c181, #f6f578); /* green to light yellow */
+  padding: 50px;
+  text-align: center;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+textarea {
+  width: 400px; /* Increase the width */
+  height: 150px; /* Increase the height */
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+  background-color: #e6cb63; /* Light cream color */
+  color: #333; /* Text color inside textarea */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: left; /* Optional: you can use 'left' for better text alignment */
+}
+
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #025f84;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 200px; /* Fixed width for the button */
+  margin-bottom: 20px; /* Space between button and result */
+}
+
+button:hover {
+  background-color: #010d90;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
