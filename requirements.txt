@@ -3,7 +3,6 @@ numpy
 nltk
 flask
 joblib
-tensorflow
 scikit-learn
 pickle
 
